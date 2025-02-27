@@ -2,7 +2,6 @@
 
 import React from "react";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip"
-
  export const people = [
   {
     id: 1,
@@ -46,7 +45,13 @@ import { AnimatedTooltip } from "@/components/ui/animated-tooltip"
     image:
       "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
   },
-];
+]; 
+export  const navItems = [
+  { name: 'Ambition', url: '/',  },
+  { name: 'Satisfaction', url: '/',  },
+  { name: 'Integrity', url: '/',  },
+  { name: 'Vigilance', url: '/',  }
+]
 
 function AnimatedTooltipPreview() {
   return (

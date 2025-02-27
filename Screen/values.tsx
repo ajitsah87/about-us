@@ -22,8 +22,8 @@ const Values = () => {
         </p>
       </div>
       <div className="p-8 bg-gray-50 mb-10">
-        <div className="grid grid-cols-12 gap-4 max-w-7xl mx-auto">
-          <Card className="col-span-3 bg-yellow-200 border-none ">
+        <div className="grid grid-cols-12 max-sm:grid-cols-1 max-md:grid gap-4 max-w-7xl mx-auto">
+          <Card className="col-span-3 max-sm:col-span-1 bg-yellow-200 border-none ">
             <CardContent className="p-6">
               <span className="text-sm text-gray-700">01</span>
               <h3 className="text-xl font-bold mt-2 mb-4 text-[#655a1c]">
@@ -34,7 +34,7 @@ const Values = () => {
             </CardContent>
           </Card>
 
-          <Card className="col-span-6 bg-purple-500 text-white border-none">
+          <Card className="col-span-6 max-sm:col-span-1 bg-purple-500 text-white border-none">
             <CardContent className="p-6">
               <span className="text-sm">03</span>
               <h3 className="text-2xl font-bold mt-2 mb-4">
@@ -50,7 +50,7 @@ const Values = () => {
             </CardContent>
           </Card>
 
-          <Card className="col-span-3 bg-orange-200 border-none">
+          <Card className="col-span-3 max-sm:col-span-1 bg-orange-200 border-none">
             <CardContent className="p-6">
               <div className="">
                 <Bot className="w-10 h-10" />
@@ -61,7 +61,7 @@ const Values = () => {
             </CardContent>
           </Card>
 
-          <Card className="col-span-6 bg-lime-300 border-none">
+          <Card className="col-span-6 max-sm:col-span-1 bg-lime-300 border-none">
             <CardContent className="p-6">
               <span className="text-sm text-gray-700">05</span>
               <h3 className="text-2xl font-bold mt-2 mb-4 text-[#3f6212]">
@@ -72,7 +72,7 @@ const Values = () => {
             </CardContent>
           </Card>
 
-          <Card className="col-span-6 bg-gray-200 border-none">
+          <Card className="col-span-6 max-sm:col-span-1 bg-gray-200 border-none">
             <CardContent className="p-6">
               <span className="text-sm text-gray-700">06</span>
               <h2 className="text-4xl font-bold mt-2 mb-4 ">
@@ -84,7 +84,7 @@ const Values = () => {
             </CardContent>
           </Card>
 
-          <Card className="col-span-3 bg-green-100 border-none">
+          <Card className="col-span-3 max-sm:col-span-1 bg-green-100 border-none">
             <CardContent className="p-6">
               <span className="text-sm text-gray-700">04</span>
               <h3 className="text-xl font-bold mt-2 mb-4">Grow 1% every day</h3>
@@ -92,7 +92,7 @@ const Values = () => {
             </CardContent>
           </Card>
 
-          <Card className="col-span-3 bg-pink-200 border-none">
+          <Card className="col-span-3 max-sm:col-span-1 bg-pink-200 border-none">
             <CardContent className="p-6">
               <span className="text-sm text-[#fda4af]">07</span>
               <h3 className="text-xl font-bold mt-2 mb-4 text-white">
@@ -103,7 +103,7 @@ const Values = () => {
             </CardContent>
           </Card>
 
-          <Card className="col-span-6 bg-blue-100 border-none">
+          <Card className="col-span-6 max-sm:col-span-1 bg-blue-100 border-none">
             <CardContent className="p-6">
               <span className="text-sm text-gray-700">08</span>
               <h3 className="text-2xl font-bold mt-2 mb-4">
@@ -113,7 +113,7 @@ const Values = () => {
             </CardContent>
           </Card>
 
-          <Card className="col-span-6 bg-yellow-200 border-none">
+          <Card className="col-span-6 max-sm:col-span-1 bg-yellow-200 border-none">
             <CardContent className="p-6">
               <span className="text-sm text-gray-700">10</span>
               <h3 className="text-2xl font-bold mt-2 mb-4 text-[#625c26]">
@@ -124,7 +124,7 @@ const Values = () => {
             </CardContent>
           </Card>
 
-          <Card className="col-span-6 bg-[#f77c73] border-none">
+          <Card className="col-span-6 max-sm:col-span-1 bg-[#f77c73] border-none">
             <CardContent className="p-6">
               <span className="text-sm text-gray-700">09</span>
               <h3 className="text-2xl font-bold mt-2 mb-4 text-white">

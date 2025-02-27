@@ -8,7 +8,7 @@ export default function Thrive() {
     <div className="flex  items-center justify-center  mx-auto  max-w-7xl gap-6 mb-10">
 
    
-    <div className="flex-1 ">
+    <div className="flex-1 max-lg:hidden">
                <Image
                  src="/thive.webp"
                  alt="Team collaboration"

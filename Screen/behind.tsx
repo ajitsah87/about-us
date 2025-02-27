@@ -4,10 +4,10 @@ import Image from "next/image";
 
 export default function BehindUs() {
   return (
-    <div className="px-8 py-12 mb-10">
+    <div className="px-8 py-12 my-10 ">
       <div className="max-w-6xl mx-auto">
         <div className="flex gap-24">
-          <div className="flex-1">
+          <div className="flex-1 max-sm:pt-32">
             <h1 className="text-5xl font-bold mb-3">
               The{" "}
               <span className="bg-gradient-to-r from-purple-400 via-blue-400 to-yellow-400 text-transparent bg-clip-text">
@@ -88,7 +88,7 @@ export default function BehindUs() {
             </div>
           </div>
 
-          <div className="flex-1">
+          <div className="flex-1 max-lg:hidden">
             <Image
               src="/our-story.svg"
               alt="Team collaboration"
