@@ -21,7 +21,7 @@ const Values = () => {
           Actions
         </p>
       </div>
-      <div className="p-8 bg-gray-50 mb-10">
+      <div className="p-8  mb-10">
         <div className="grid grid-cols-12 max-sm:grid-cols-1 max-md:grid gap-4 max-w-7xl mx-auto">
           <Card className="col-span-3 max-sm:col-span-1 bg-yellow-200 border-none ">
             <CardContent className="p-6">

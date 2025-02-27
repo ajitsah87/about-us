@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export default function HeroPage() {
   return (
-    <main className="w-full h-screen bg-white mb-10 max-lg:mb-96 max-md:mb-64 relative">
+    <main className="w-full h-full bg-white mt-20  relative">
       <section className="mx-auto flex max-w-7xl gap-2 h-full items-center px-8 max-lg:flex-col ">
         <div className="flex-1 space-y-10 max-lg:text-left max-lg:w-full max-lg:mb-10">
           <p className="text-sm font-semibold uppercase text-gray-500 max-lg:mt-12">ABOUT US</p>
